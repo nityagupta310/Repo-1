@@ -1,0 +1,82 @@
+ /* selector {
+ property: value; 
+ }*/
+ 
+ 
+ 
+/* 2. Tag selector */
+/* to apply styles to all elements of a specific type, 
+you can use the tag selector. */
+h1 {
+    color: rgb(0, 221, 255);
+    background-color: rgb(253, 144, 217);
+ }
+ 
+ /* 3. Class selector */
+ /* to apply styles to elements with a specific class, you can use the class selector. */
+ .a {
+    color: rgb(179, 255, 0);
+    font-size: 20px;
+ }
+ .b {
+    background-color: green;
+ }
+ 
+ /* 4. ID selector */
+/* to apply styles to a specific element with a unique ID, you can use the ID selector. */
+
+ #c {
+    font-weight: 1000;
+    color: yellow;
+ }
+
+ /* 5. Grouping selector */
+ /* to apply the same styles to multiple
+  elements, you can use the grouping selector. */
+
+  h2,
+  h3,
+  .b,
+  #c {
+    color: red;
+}
+/* 6. Descendant selector */
+ /* to apply styles to elements that are descendants of 
+ a specific element, you can use the descendant selector. */
+  #c {
+    color: yellow;
+  }
+  #f p {
+    font-size: 18px;
+  }
+/* Child selector */
+ /* to apply styles to elements that are direct children of
+  a specific element, you can use the child selector. */
+  #f > p {
+    font-size: 30px;
+    color: green;
+    background-color: rgb(255, 255, 0);
+}
+
+/* pseudo elements */
+li:nth-child(2){
+   color : red;
+   border: 3px solid blue;
+   background-color: yellow;
+   font-size: 20px;
+}
+
+#pseudo::first-letter{
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+}
+#pseudo::first-line{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+#pseudo {
+   padding : 20px 50px;
+   
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <br/>
+    <!-- Internal CSS -->
+    <style>
+        /* selector {
+     property: value; 
+        }*/
+        h2 {
+            color: rgb(20, 216, 216);
+            background-color: rgb(49, 226, 5);
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./index.css" />
+
+</head>
+
+<body>
+    <header>
+        <a href="https://arche-ele.com/" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIskXiis51E9dy9AuCWVRoGU_4sUYlwfjJUbFWRyESxA&s" 
+        alt="url is not correct" width="100px" height="100px"/>
+        </a>
+        <a href="./index.html">Home</a>
+        <a href="./about.html" target="_blank">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./cart.html">Cart</a>
+        <a href="https://arche-ele.com/el-alfabeto-abecedario-letras-y-sonidos" target="_blank">Spanish</a>
+    </header>
+
+    <!-- FORM -->
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" 
+        required
+        minlength="2"
+        maxlength="20">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email"required>
+
+        <br>
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" placeholder="Enter your mobile number"required
+        minlength="10"
+        maxlength="10">
+
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+        <input type="reset" value="Reset">
+
+    </form>
+    <label> Choose your branch</label>
+    <br/>
+    <select>
+        <option value="branch1">CSIT</option>
+        <option value="branch2">CS AI</option>
+        <option value="branch3">CS</option>
+    </select>
+    <br/>
+    <label> Upload your fee recipt</label>
+    <input type="file" accept=".pdf" accept=".jpg" required />
+    <br/>
+
+    <label> Upload other documents</label>
+    <br/>
+    <input type="file" accept=".pdf" multiple required />
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <input type="reset" value="Reset">
+
+    <!-- types of heading -->
+    <h1>A</h1>
+    <h2>B</h2>
+    <h3>C</h3>
+    <h4>D</h4>
+    <h5>E</h5>
+    <h6>F</h6>
+
+    <!-- block level tags -->
+    <p>Paragraph</p>
+    <p>Block tag -1</p>
+    <div>Block tag -2</div>
+    <header>THIS IS A HEADER </header>
+
+    <!-- Inline level tag-->
+
+    <span>Inline tag-1</span>
+    <a>Inline tag-2</a>
+    <strong>Inline tag-3</strong>
+    <b>Inline tag-3</b>
+    <em>Inline tag-4</em>
+    <i>Inline tag-4</i>
+    <input type="Inline tag-5" name="" id="">
+    <label for="Inline tag-6"></label>
+    <button>Inline tag-7</button>
+    <code>Inline tag-8</code>
+    
+    <!-- Ordered list -->
+     
+    <ol type="a">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+
+    </ol>
+
+    <!-- Unordered list -->
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <!-- Description List -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypetext markup language</dd>
+    </dl>
+
+    <!-- Table -->
+    <h3>Table</h3>
+    <table border="10">
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Name</th>
+                <th>Branch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ABC</td>
+                <td>CSIT</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DEF</td>
+                <td>CS AI</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Inline css -->
+    <h2 style="color: rgb(238, 255, 0);">Learning inline CSS</h2>
+
+
+        
+
+</body>
+
+
+</html>

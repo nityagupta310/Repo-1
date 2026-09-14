@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- INTERNAL CSS -->
+    <style>
+        h1 {
+            color: rgb(0, 217, 255);
+            background-color: rgb(58, 3, 187);
+        }
+    </style>
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="./practice.css" />
+</head>
+<body>
+    <!-- Inline Css -->
+    <h1 style="color: rgb(255, 255, 0); background-color: rgb(119, 128, 2);">ABCD</h1>
+    <h6 style="color: rgb(9, 255, 0); background-color: rgb(1, 99, 26);">....Practice Code....</h6>
+    <br/>
+    <a href="https://onecompiler.com/" target="_blank">Online compiler</a>
+    <br/>
+    <h2>Form</h2>
+     <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" 
+        required>
+        <br/>
+        <label for="branch">Choose your branch</label>
+        <br/>
+        <select>
+        <option value="branch1">CSIT</option>
+        <option value="branch2">CS AI</option>
+        <option value="branch3">CS</option>
+        <option value="branch4">CS DS</option>
+        <option value="branch5">CSE core</option>
+        <option value="branch6">CS AIML</option>
+        <option value="branch7">Other</option>
+        <input type="text" placeholder="Enter other branch">
+        </select>
+        <br/>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email"required>
+        <br/>
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" placeholder="Enter your mobile number"required
+        minlength="10"
+        maxlength="10">
+
+        <br/>
+        <input type="submit" value="Submit">
+        <br/>
+        <input type="reset" value="Reset">
+        <br/>
+     </form>
+    <form>
+        <h2>Other requirements</h2>
+        <label> Upload your fee recipt</label>
+        <input type="file" accept=".pdf" accept=".jpg" required />
+        <br/>
+
+        <label> Upload other documents</label>
+        <br/>
+        <input type="file" accept=".pdf" multiple required />
+        <br/>
+        <input type="submit" value="Submit">
+        <br/>
+        <input type="reset" value="Reset">
+        <br/>
+    </form>
+ 
+
+</body>
+</html>

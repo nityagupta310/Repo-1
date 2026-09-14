@@ -1,0 +1,6 @@
+10 block level tags
+10 inline level tags
+input tag m kitne types hote h
+aur input m atrributes
+
+header m abcd aur ek website ka url then a form like the one we created
